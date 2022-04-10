@@ -27,7 +27,7 @@
   z-index: 99;
 }
 
-.logo_place_header { 
+.logo_place_header {
   /*border: 2px solid red;*/
   position: absolute;
   left: 64px;
@@ -49,6 +49,7 @@
 
 .header__subtitle {
   /*border: 2px solid red;*/
+  margin: 0;
   width: 388px;
   position: absolute;
   left: 64px;
@@ -61,9 +62,11 @@
 
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__link:hover {
+  color: #2f80ed;
   text-decoration: underline;
 }
 
@@ -115,6 +118,7 @@
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -123,7 +127,6 @@
   min-width: 784px;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
 }
 
 .two-columns__paragraph {
@@ -135,14 +138,17 @@
   /*margin-bottom: 30px;*/
 }
 
+.two-columns__paragraph:nth-child(2) {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
 .two-columns__span-accent {
   /*border: 2px solid red;*/
   font-size: 24px;
   line-height: 34px;
   font-weight: bold;
   display: inline-flex;
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .digits {
@@ -154,7 +160,7 @@
 
 .section-title {
   /*border: 2px solid red;*/
-  display: flex;
+  text-align: center;
   justify-content: center;
   width: 60%;
   margin: 0 auto 0 auto;
@@ -165,7 +171,7 @@
 
 .section-subtitle {
   /*border: 2px solid red;*/
-  display: flex;
+  text-align: center;
   justify-content: center;
   width: 60%;
   margin: 20px auto 0 auto;
@@ -212,7 +218,7 @@
 
 .feynman {
   /*border: 2px solid red;*/
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
@@ -222,13 +228,13 @@
   flex-direction: column;
   align-items: center;
   position: relative;
-  
+
 }
 
 .feynman__title {
   /*border: 2px solid red;*/
   width: 648px;
-  display: flex;
+  text-align: center;
   justify-content: center;
   margin: 100px 0 0 0;
   font-size: 120px;
@@ -239,7 +245,7 @@
 
 .feynman__subtitle {
   /*border: 2px solid red;*/
-  display: flex;
+  text-align: center;
   margin: 70px 0 0 0;
   font-size: 36px;
   line-height: 51px;
@@ -255,10 +261,12 @@
   line-height: 51px;
   font-weight: normal;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__link:hover {
   text-decoration: underline;
+  color: #2f80ed;
 }
 
 .kaufman {
@@ -274,14 +282,14 @@
 .section-title_theme_dark {
   /*border: 2px solid red;*/
   color: white;
-  display: flex;
+  text-align: center;
   z-index: 34;
 }
 
 .section-subtitle_theme_dark {
   /*border: 2px solid red;*/
   color: white;
-  display: flex;
+  text-align: center;
   z-index: 33;
 }
 
@@ -317,6 +325,8 @@
   top: 0;
   right: -210px;
   z-index: 22;
+  background-image: url(../images/kaufman-triangle.svg);
+  background-size: contain;
 }
 
 .footer {
@@ -384,7 +394,7 @@
   display: flex;
   flex-direction: column;
   padding: 20px 0 16px 0;
-  
+
 }
 
 .footer__columns-link {
@@ -403,6 +413,5 @@
 .footer__social-icon {
   height: 16px;
   width: 16px;
-  padding:0 10px 0 0;
+  padding: 0 10px 0 0;
 }
-
