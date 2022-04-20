@@ -1,0 +1,10 @@
+.cards__description {
+  /* border: 2px solid red; */
+  margin: 0;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  width: 240px;
+  /* padding: 5px; */
+  box-sizing: border-box;
+}
