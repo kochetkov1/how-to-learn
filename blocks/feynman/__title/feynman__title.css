@@ -1,6 +1,6 @@
 .feynman__title {
-  /*border: 2px solid red;*/
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   text-align: center;
   justify-content: center;
   margin: 100px 0 0 0;

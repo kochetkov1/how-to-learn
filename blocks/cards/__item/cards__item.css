@@ -1,5 +1,4 @@
 .cards__item {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   text-align: center;

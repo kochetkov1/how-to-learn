@@ -1,5 +1,4 @@
 .feynman__link {
-  /*border: 2px solid red;*/
   position: absolute;
   top: 50%;
   right: 48px;
@@ -8,11 +7,11 @@
   font-weight: normal;
   text-decoration: none;
   color: #2f80ed;
+  transition: opacity 0.7s;
 }
 
 .feynman__link:hover {
   text-decoration: underline;
   color: #2f80ed;
   opacity: 0.7;
-  transition: opacity 1s;
 }
