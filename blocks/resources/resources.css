@@ -1,0 +1,7 @@
+.resources {
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 0 217px 0;
+}
